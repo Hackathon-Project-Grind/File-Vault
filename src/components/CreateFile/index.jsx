@@ -121,7 +121,7 @@ const CreateFile = ({ currentFolder }) => {
             <Form.Group controlId="formBasicFolderName" className="my-2">
               <Form.Control
                 type="text"
-                placeholder="Eg: index.html, index.js, index.php, index.txt, ... "
+                placeholder="Eg: index.html, index.js, index.php, index.txt, .... "
                 value={file}
                 onChange={(e) => setFile(e.target.value)}
               />
