@@ -63,7 +63,7 @@ const Home = () => {
     return (
       <Row>
         <Col md="12">
-          <h1 className="text-center my-5">Fetching folders...</h1>
+          <h1 className="text-center my-5">Fetching folders.....</h1>
         </Col>
       </Row>
     );
