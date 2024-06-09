@@ -22,7 +22,7 @@ const CreateFile = ({ currentFolder }) => {
   const handleFileSubmit = (e) => {
     e.preventDefault();
 
-    if (!file) return toast.dark("Please add file name!");
+    if (!file) return toast.dark("Please add File name!");
     const fileExtension =
       file.split(".").length > 1
         ? file.split(".")[file.split(".").length - 1].toLowerCase()
@@ -121,7 +121,7 @@ const CreateFile = ({ currentFolder }) => {
             <Form.Group controlId="formBasicFolderName" className="my-2">
               <Form.Control
                 type="text"
-                placeholder="eg. index.html, index.js, index.php, index.txt"
+                placeholder="Eg: index.html, index.js, index.php, index.txt, ... "
                 value={file}
                 onChange={(e) => setFile(e.target.value)}
               />
