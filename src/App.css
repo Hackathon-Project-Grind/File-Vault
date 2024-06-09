@@ -1,0 +1,24 @@
+
+h1{
+    margin: 45%;
+    display: flex;
+    width:450px;
+    align-self:center;
+    margin-left: 600px;
+    
+}
+h2{
+    margin: 30%;
+    display: flex;
+    width:550px;
+    align-content:left;
+    margin-left: 550px;
+
+}
+.LogoMain{
+    height: 100px;
+    margin-left:750px;
+    margin-top: 150px;
+    display: flex;
+    align-content: center;
+}

@@ -1,0 +1,76 @@
+/* NavDash.css */
+
+/* Navbar Brand - Spacing and Hover Effect */
+.navbar-brand-custom {
+    margin-left: 60px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand-custom img {
+    height: 40px; /* Set logo height */
+    margin-right: 10px; /* Spacing between logo and text */
+    
+  }
+  
+  .navbar-brand-custom:hover {
+    color: #00aaff !important; /* Bright color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Nav Links - General Spacing and Hover Effect */
+  .nav-link-custom {
+    color: #ffffff !important; /* Ensure nav links are white */
+    margin-right: 10px; /* Spacing between links */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    
+  }
+  
+  .nav-link-custom:hover {
+    color: #00aaff !important; /* Bright color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Welcome Text - Non-interactive */
+  .nav-welcome-text {
+    pointer-events: none; /* Non-interactive */
+    cursor: default; /* Default cursor */
+    color: #ffffff !important; /* White text */
+  }
+  
+  /* Button Styles - Hover and Active States */
+  .nav-button-custom-home {
+    margin-right: 5px; /* Consistent spacing */
+    color: #ffffff !important; /* Ensure button text is white */
+    transition: transform 0.2s, opacity 0.2s; /* Smooth transition */
+    background-color: black;
+    border-color:black ;
+    margin-left: 950px;
+    padding: 10px;
+    height: 50px;
+    width:70px
+   }
+   .nav-button-custom-logout{
+    margin-right: 5px; /* Consistent spacing */
+    color: #ffffff !important; /* Ensure button text is white */
+    transition: transform 0.2s, opacity 0.2s; /* Smooth transition */
+    background-color: black;
+    border-color:black ;
+    padding: 10px;
+    height: 50px;
+    width:70px
+   }
+  
+  .nav-button-custom:hover {
+    opacity: 0.8; /* Dim on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    background-color: black;
+    border-color: black ;
+  }
+  
+  .nav-button-custom:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+  }
+  
