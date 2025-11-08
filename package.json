@@ -16,7 +16,7 @@
     "firebase": "^10.9.0",
     "react": "^18.2.0",
     "react-bootstrap": "^1.6.0",
-    "react-codemirror2": "^7.2.1",
+    "react-codemirror2": "^7.3.0",
     "react-dom": "^18.2.0",
     "react-file-viewer": "^1.2.1",
     "react-redux": "^7.2.4",
@@ -29,12 +29,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-  "start": "vite",
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-}
-,
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
